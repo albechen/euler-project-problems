@@ -9,6 +9,8 @@ There are no arithmetic sequences made up of three 1-, 2-, or 3-digit primes, ex
 but there is one other 4-digit increasing sequence.
 
 What 12-digit number do you form by concatenating the three terms in this sequence?
+
+ANSWER: [[2969, 6299, 9629]]
 """
 
 #%%
@@ -56,17 +58,17 @@ for index in list_index:
     primes_from_index.append(new_list)
 
 
+prime_permutations = []
 for group in primes_from_index:
-    test_eqi = []
     count = 1
     for x in range(0, len(group) - 1):
         y_range = range(x + 1, len(group) - 1)
         for y in y_range:
-            print(x, y)
-            if y != x:
-                test_eqi.append(group[y] - group[x])
-    for x in test_eqi:
-        test_eqi_copy = test_eqi.copy()
-        test_eqi_copy.remove(x)
-        if x in test_eqi_copy:
-            print(x, group)
+            third_prime = (group[y] - group[x]) + group[y]
+            if third_prime in group:
+                trio_primes = list([group[x], group[y], third_prime])
+                prime_permutations.append(trio_primes)
+
+print(prime_permutations)
+
+# %%
