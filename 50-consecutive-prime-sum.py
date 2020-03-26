@@ -10,8 +10,6 @@ This is the longest sum of consecutive primes that adds to a prime below one-hun
 The longest sum of consecutive primes below one-thousand that adds to a prime, contains 21 terms, and is equal to 953.
 
 Which prime, below one-million, can be written as the sum of the most consecutive primes?
-
-ANSWER: 997651
 """
 #%%
 def list_primes(min_num, max_num):

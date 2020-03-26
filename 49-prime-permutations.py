@@ -9,8 +9,6 @@ There are no arithmetic sequences made up of three 1-, 2-, or 3-digit primes, ex
 but there is one other 4-digit increasing sequence.
 
 What 12-digit number do you form by concatenating the three terms in this sequence?
-
-ANSWER: [[2969, 6299, 9629]]
 """
 
 #%%
