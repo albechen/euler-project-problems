@@ -39,7 +39,6 @@ while n < 6:
     x = 0
     while x < len(primes):
         primes[x]
-
         x += 1
 
 

@@ -20,3 +20,8 @@ def sum_self_power_last_10_digits(max_num):
         num += 1
     print(current_sum)
     return current_sum
+
+
+# %%
+sum_self_power_last_10_digits(10001000)
+# %%
