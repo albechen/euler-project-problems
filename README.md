@@ -11,7 +11,6 @@ The scripts above cover solutions to problems from [Project Euler](https://proje
 - [x] P2: Even Fibonacci numbers
 - [x] P3: Largest prime factor
 - [x] P4: Largest palindrome product
-...
 - [x] P48: Self powers
 - [x] P49: Prime permutations
 - [x] P50: Consecutive prime sum
